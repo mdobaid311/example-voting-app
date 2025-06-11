@@ -11,3 +11,10 @@ spec:
     image: postgres:9.4
     ports:
       - containerPort: 5432
+    env:
+      - name: POSTGRES_USER
+        value: examplevotingapp
+      - name: POSTGRES_PASSWORD
+        value: examplevotingapp
+      - name: POSTGRES_DB
+        value: examplevotingapp
